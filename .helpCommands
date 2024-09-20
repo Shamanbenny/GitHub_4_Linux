@@ -1,0 +1,4 @@
+[Git Alias]
+gith:       To get the list of git commands and their description
+gitrepo:    To change directory to the GitHub repo
+gitl:       To print the git log in a graph format

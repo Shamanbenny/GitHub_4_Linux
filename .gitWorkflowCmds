@@ -1,0 +1,45 @@
+[Basic Git Command]
+# Clone a remote repository
+gh repo clone <username>/<repository_name>
+
+# Add changes to the staging area
+git add <file_name>
+git add .               
+# [NOTE] Add all files in current directory to the staging area
+
+# Commit changes to the repository
+git commit -m "Commit message"
+
+# Fetch all changes from a remote repository
+# [NOTE] This basically updates git status to reflect the latest changes made
+git fetch origin
+
+# Pull latest changes from a remote repository
+# [NOTE] Recommended to pull before pushing to avoid conflicts
+git pull
+
+# Push changes to a remote repository
+git push
+git push origin <branch_name>
+git push --rebase
+# [NOTE] --rebase pulls the latest changes from the remote repository and applies your changes on top of them]
+
+# Create a new branch
+git branch <branch_name>
+
+# Switch to a different branch
+git switch <branch_name>
+
+# Checkout past commit (Can get <commit_hash> from git log -> git checkout <branch> after to return to the latest commit)
+git checkout <commit_hash>
+
+# Merge changes from <branch_name> onto current branch
+git merge <branch_name>
+
+# View the status of the repository
+git status
+
+# View the commit history
+git log
+gitl        
+# [NOTE] Personalized alias for git log
