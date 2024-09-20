@@ -8,6 +8,8 @@ The `.bashrc` setup assumes that the Folder containing your GitHub Repositories 
 
 ## (Optional) Pip Installations
 
+If you choose not to install Pygments, do update the `.bashrc` setup to use `cat` instead of `pygmentize -g`...
+
 > pip install Pygments
 
 ## .bashrc Setup

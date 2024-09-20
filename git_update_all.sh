@@ -11,8 +11,8 @@ for repo in "$REPO_DIR"/*/; do
         cd "$repo" || exit
         # Perform git fetch and git pull
         git fetch && git pull
-        echo "[END] Finished updating $repo"
+        echo -e "[END]   Finished updating $repo\n"
     else
-        echo "$repo is not a Git repository, skipping..."
+        echo -e "[NOTE]  $repo is not a Git repository, skipping...\n"
     fi
 done
