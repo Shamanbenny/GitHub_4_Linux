@@ -25,13 +25,3 @@ Locate your `.bashrc` file within your Linux user directory, and add the followi
 Ensure that `git_update_all.sh` is executable.
 
 > chmod +x git_update_all.sh
-
-## Setting up the Cron Job
-
-Run the following Linux command...
-
-> crontab -e
-
-Add the following Cron Job to run the script every hour...
-
-> 0 \* \* \* \* ~/\_gitHubRepo/GitHub_4_Linux/git_update_all.sh
