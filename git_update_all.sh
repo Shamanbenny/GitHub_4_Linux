@@ -26,7 +26,7 @@ fi
 # Iterate over every subdirectory in the repository folder
 for repo in "$REPO_DIR"/*/; do
     if [[ -d "$repo/.git" ]]; then
-        echo "[GIT UPDATE] Updating repository: $REPO_DIR/$repo"
+        echo "[GIT UPDATE] Updating repository: $repo"
         cd "$repo"
         git fetch && git pull
     fi
