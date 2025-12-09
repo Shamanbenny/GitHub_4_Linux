@@ -16,11 +16,15 @@ If you choose not to install Pygments, do update the `.bashrc` setup to use `cat
 
 Locate your `.bashrc` file within your Linux user directory, and add the following alias...
 
-> alias \_help='pygmentize -g ~/\_gitHubRepo/GitHub_4_Linux/.helpCommands'
-> alias gith='pygmentize -g ~/\_gitHubRepo/GitHub_4_Linux/.gitWorkflowCmds'
-> alias gitrepo='cd ~/\_gitHubRepo'
-> alias gitl='git log --graph --oneline --decorate'
-> alias gitupdate='~/\_gitHubRepo/GitHub_4_Linux/git_update_all.sh'
+> `alias \_help='pygmentize -g ~/\_gitHubRepo/GitHub_4_Linux/.helpCommands'`
+>
+> `alias gith='pygmentize -g ~/\_gitHubRepo/GitHub_4_Linux/.gitWorkflowCmds'`
+> 
+> `alias gitrepo='cd ~/\_gitHubRepo'`
+> 
+> `alias gitl='git log --graph --oneline --decorate'`
+> 
+> `alias gitupdate='~/\_gitHubRepo/GitHub_4_Linux/git_update_all.sh'`
 
 ## [IMPORTANT]
 
